@@ -1,0 +1,29 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  text-align: left;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.image {
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  flex-grow: 1;
+}
+
+.title {
+  margin: 0;
+}
+
+.description {
+  margin: 0;
+}
